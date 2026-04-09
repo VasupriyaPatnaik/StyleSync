@@ -148,10 +148,6 @@ function App() {
 
   useEffect(() => {
     document.title = isAuthenticated ? "StyleSync - Workspace" : "StyleSync - Living Design System";
-  }, []);
-
-  useEffect(() => {
-    document.title = isAuthenticated ? "StyleSync - Workspace" : "StyleSync - Living Design System";
   }, [isAuthenticated]);
 
   useEffect(() => {
